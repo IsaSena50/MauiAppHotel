@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             BackgroundColor="{StaticResource Gray100}">
+
+    <VerticalStackLayout Padding="20"
+                         Spacing="15"
+                         VerticalOptions="Center">
+
+        <Label Text="Sobre o App"
+               FontFamily="Kalam"
+               FontSize="40"
+               TextColor="{StaticResource Primary}" />
+
+        <Label Text="App Hotel"
+               FontSize="24"
+               FontAttributes="Bold" />
+
+        <Label Text="Aplicativo para calcular a diária de uma hospedagem, feito nas aulas de Programação Mobile I." />
+
+        <Label Text="Desenvolvido por: Isolina Sena" />
+
+        <Label Text="Ano de desenvolvimento: 2026" />
+
+        <Label Text="Curso Técnico em Desenvolvimento de Sistemas" />
+
+    </VerticalStackLayout>
+</ContentPage>
